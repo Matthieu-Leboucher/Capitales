@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le jeu des capitales !</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Le jeu des capitales !</h1>
+        <h2>Connaissez-vous les capitales du monde ?</h2>
+        <h3>Un jeu pour apprendre en s'amusant, seul ou en famille !</h3>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Un pays est proposé -->
+        <div class="zoneQuestion">
+            <p>Quelle est la capitale de ce pays ?</p>
+        </div>
+
+        <div class="paysPropose">
+        </div>
+    
+        <!-- On saisit la capitale du pays -->
+        <div class="zoneSaisie">
+            <form>
+                <input type="text" id="inputEcriture">
+                <button id="btnValiderMot" type="button">Valider</button>
+            </form>
+        </div>
+    
+        <!-- Le score -->
+        <div class="zoneScore">
+            <p>Votre score est de <span></span></p>
+        </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        Ce jeu vous est offert avec amour !
+    </footer>
+
+</body>
+</html>
